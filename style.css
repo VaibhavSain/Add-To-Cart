@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.shirt1 {
+    height: 30rem;
+    width: 30rem;
+    position:absolute;
+    left: 14rem;
+}
+.shirt2 {
+    height: 6rem;
+    width: 6rem;
+    position: relative;
+    top: -12rem;
+    left: -27rem;
+}
+.shirt3{
+    height: 6rem;
+    width: 6rem;
+    top: -5rem;
+    position: relative;
+    left: -33rem;
+}
+.shirt4 {
+    height: 6rem;
+    width: 6rem;
+    position: relative;
+    left: -39rem;
+    top: 2rem;
+}
+.catg {
+    color: #1A75FF;
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+.heading {
+    font-size: 32px;
+    margin-top: 20px;
+    font-style: normal;
+   
+}
+.para {
+    margin-top: 20px;
+    font-size: 18px ;
+    color:rgba(00, 00, 00, 0.6);
+}
+.price {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.discount {
+    background-color: #AACCFF;
+    color: #1A75FF;
+    height: 24px;
+    width: 60px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 12.7rem;
+    margin-left:8rem;
+}
+.images {
+    position: absolute;
+}
+
+.sec {
+    position: absolute;
+    height: 30rem;
+    width: 30rem;
+    right: 10rem;
+    
+}
+.close-price {
+    color: rgba(00, 00, 00, 0.6);
+    font-style: italic;
+    text-decoration: line-through;
+    font-size: 24px;
+}
+.size {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sizes {
+    display: flex;
+    font-size: 18px;
+    flex-direction: row;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.s {
+    height: auto;
+    width: 44px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    padding: 6px;
+    
+    font-weight: bold;
+}
+.s:hover {
+background-color: #1A75FF;
+color: white;
+cursor: pointer;
+}
+#active {
+    background-color: black;
+    color: white;
+}
+.btn {
+    height: 3rem;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #1A75FF;
+   color: white;
+   font-size: 20px;
+   border-radius: 5px;
+}
+.btn:hover {
+background-color: #AACCFF;
+}
